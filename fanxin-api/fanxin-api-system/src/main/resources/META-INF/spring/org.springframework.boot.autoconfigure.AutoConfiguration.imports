@@ -1,0 +1,3 @@
+com.fanxin.system.api.factory.RemoteUserFallbackFactory
+com.fanxin.system.api.factory.RemoteLogFallbackFactory
+com.fanxin.system.api.factory.RemoteFileFallbackFactory

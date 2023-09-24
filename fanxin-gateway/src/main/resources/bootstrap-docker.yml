@@ -1,0 +1,19 @@
+# Spring
+spring:
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: fanxin-nacos:8848
+      config:
+        # 配置中心地址
+        server-addr: fanxin-nacos:8848
+    sentinel:
+      transport:
+        # 控制台地址
+        dashboard: fanxin-nacos:8718
+      # nacos配置持久化
+      datasource:
+        ds1:
+          nacos:
+            server-addr: fanxin-nacos:8848

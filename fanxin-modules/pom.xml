@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.fanxin</groupId>
+        <artifactId>fanxin</artifactId>
+        <version>3.6.3</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>fanxin-system</module>
+        <module>fanxin-gen</module>
+        <module>fanxin-job</module>
+        <module>fanxin-file</module>
+    </modules>
+
+    <artifactId>fanxin-modules</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        fanxin-modules业务模块
+    </description>
+
+</project>

@@ -1,0 +1,2 @@
+com.fanxin.common.log.service.AsyncLogService
+com.fanxin.common.log.aspect.LogAspect

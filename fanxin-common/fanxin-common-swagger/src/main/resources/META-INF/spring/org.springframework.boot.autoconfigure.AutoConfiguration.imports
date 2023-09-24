@@ -1,0 +1,3 @@
+# com.fanxin.common.swagger.config.SwaggerAutoConfiguration
+# com.fanxin.common.swagger.config.SwaggerWebConfiguration
+# com.fanxin.common.swagger.config.SwaggerBeanPostProcessor
