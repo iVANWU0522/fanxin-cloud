@@ -47,6 +47,7 @@ nbdist/
 
 ### Docker folder ###
 docker/fanxin/*/jar/*.jar
+docker/fanxin/*/*/jar/*.jar
 docker/mysql/data/
 docker/mysql/db/*.sql
 docker/nacos/logs
