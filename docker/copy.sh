@@ -10,12 +10,13 @@ usage() {
 # copy sql
 echo "begin copy sql "
 cp ../sql/fx_20230706.sql ./mysql/db
+cp ../sql/quartz.sql ./mysql/db
 cp ../sql/fx_config_20220929.sql ./mysql/db
+cp ../sql/fx_seata_20210128.sql ./mysql/db
 
 # copy html
 echo "begin copy html "
 cp -r ../fanxin-ui/dist/** ./nginx/html/dist
-
 
 # copy jar
 echo "begin copy fanxin-gateway "

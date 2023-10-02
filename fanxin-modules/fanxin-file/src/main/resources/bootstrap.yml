@@ -14,10 +14,10 @@ spring:
     nacos:
       discovery:
         # 服务注册地址
-        server-addr: { spring.cloud.nacos.discovery.server-addr }
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
       config:
         # 配置中心地址
-        server-addr: { spring.cloud.nacos.config.server-addr }
+        server-addr: ${spring.cloud.nacos.config.server-addr}
         # 配置文件格式
         file-extension: yml
         # 共享配置

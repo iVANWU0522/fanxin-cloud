@@ -77,8 +77,6 @@ services:
       - fanxin-redis
     links:
       - fanxin-redis
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
   fanxin-auth:
     container_name: fanxin-auth
     build:
@@ -90,8 +88,6 @@ services:
       - fanxin-redis
     links:
       - fanxin-redis
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
   fanxin-modules-system:
     container_name: fanxin-modules-system
     build:
@@ -116,8 +112,6 @@ services:
       - fanxin-mysql
     links:
       - fanxin-mysql
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
   fanxin-modules-job:
     container_name: fanxin-modules-job
     build:
@@ -129,8 +123,6 @@ services:
       - fanxin-mysql
     links:
       - fanxin-mysql
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
   fanxin-modules-file:
     container_name: fanxin-modules-file
     build:
@@ -140,8 +132,6 @@ services:
       - "9300:9300"
     volumes:
     - ./fanxin/uploadPath:/home/fanxin/uploadPath
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
   fanxin-visual-monitor:
     container_name: fanxin-visual-monitor
     build:
@@ -149,5 +139,3 @@ services:
       dockerfile: dockerfile
     ports:
       - "9100:9100"
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
